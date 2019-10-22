@@ -1,0 +1,55 @@
+
+/* The dsesign of calculator */
+.calculator {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  /* positioning calculator in the middle */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+}
+
+/* Input field design */
+.calculator-screen {
+  width: 100%;
+  font-size: 5rem;
+  height: 80px;
+  border: none;
+  /*  Changing user input field to dark color */
+  background-color: #252525;
+  color: #fff;
+}
+
+/* Buttons style */
+button {
+  height: 60px;
+  background-color: #fff;
+  border-radius: 3px;
+  border: 1px solid #c4c4c4;
+  background-color: transparent;
+  font-size: 2rem;
+  color: #333;
+  width: 60px;
+  /* shaddow for the buttons */
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.05), inset 0 1px 0 0 rgba(255,255,255,.45), inset 0 -1px 0 0 rgba(255,255,255,.15), 0 1px 0 0 rgba(255,255,255,.15);
+  text-shadow: 0 1px rgba(255,255,255,.4);
+}
+
+/* Color of the buttons once it hovered  */
+button:hover {
+  background-color: #eaeaea;
+}
+
+/* Changing button text color for opearator buttons */
+.operator {
+  color: #337cac; /
+}
+
+/* Calculator buttons design */
+.calculator-keys {
+  position: fixed;
+  right: auto;
+  left: auto;
+}
